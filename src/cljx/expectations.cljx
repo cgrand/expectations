@@ -577,7 +577,7 @@
   (when (p/bound? var)
     (when-let [vv @var]
       (when (p/iref-types (type vv))
-        [(var->symbol var) (list 'localize `(deref ~var))]))))
+        [(var->symbol var) (list 'localize (var->symbol var))]))))
 
 #+clj
 (defn- default-local-vals [namespaces]

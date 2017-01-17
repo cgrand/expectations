@@ -5,9 +5,9 @@
   :java-source-paths ["src/java"]
   :source-paths ["src/cljx" "src/clojure" "src/cljs"]
   :test-paths ["target/test-classes"]
-  :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-3196"]
-                 [joda-time/joda-time "2.7"]
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.clojure/clojurescript "0.0-3308"]
+                 [joda-time/joda-time "2.9.7"]
                  [junit/junit "4.12"]]
 
   :plugins [[lein-expectations "0.0.8"]
